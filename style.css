@@ -10,6 +10,7 @@ h1 {
   font-size: 3rem;
   opacity: 0.8;
 }
+
 h2,
 p {
   color: #658ec6;
@@ -46,6 +47,7 @@ main {
   backdrop-filter: blur(2rem);
   display: flex;
 }
+
 .circle1,
 .circle2 {
   background: white;
@@ -64,10 +66,12 @@ main {
   top: 5%;
   right: 15%;
 }
+
 .circle2 {
   bottom: 5%;
   left: 10%;
 }
+
 .dashboard {
   flex: 1;
   display: flex;
@@ -82,12 +86,14 @@ main {
   );
   border-radius: 2rem;
 }
+
 .link {
   display: flex;
   margin: 2rem 0rem;
   padding: 1rem 5rem;
   align-items: center;
 }
+
 .link h2 {
   padding: 0rem 2rem;
 }
@@ -109,6 +115,7 @@ main {
   top: -10%;
   right: 10%;
 }
+
 .pro h2 {
   width: 40%;
   color: white;
@@ -161,6 +168,7 @@ main {
   position: relative;
   overflow: hidden;
 }
+
 .progress::after {
   content: "";
   width: 100%;
@@ -169,6 +177,7 @@ main {
   position: absolute;
   left: 60%;
 }
+
 .card-info {
   display: flex;
   flex-direction: column;
